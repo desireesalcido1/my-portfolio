@@ -1,0 +1,202 @@
+/***** BASE STYLES *****/
+/***** Colors:
+pink: #ffb3cc
+white: #ffffff
+tan: #ecd8c6 *****/
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f8fa;
+}
+#about, #skills, #contact {
+  height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin:0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+/***** HEADER *****/
+header {
+  height:60px;
+  background-color:pink;
+  border-bottom: white solid 5px;
+}
+.Name {
+  font-family: 'Petit Formal Script', cursive;
+ font-size: 30px;
+  color: white;
+}
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding-left: 80px;
+  font-weight: bold
+}
+#header-image {
+  text-align: center;
+  background-size: cover;
+}
+#display-pic {
+  border-radius: 50%;
+  border: solid 5px white;
+  margin-right: 280px;
+  margin-left: 280px;
+}
+
+/***** ABOUT STYLE *****/
+#about {
+  background-color: #f8f8fa;
+}
+#about .full-width {
+}
+#about h2 {
+  color: #7f7f7f;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#about p {
+  font-size:21px;
+  color: #7f7f7f;
+  line-height: 42px;
+  padding-right: 50px;
+}
+#about h3 {
+  font-size: 25px;
+  color:#7f7f7f;
+}
+/***** WORK STYLE *****/
+
+#skills {
+  background-color: pink;
+  text-align: center;
+  color: white;
+}
+#skills .full-width {
+  padding: 115px 0;
+}
+#skills img {
+  padding-bottom: 30px;
+}
+#skills h3 {
+  font-size:22px;
+  width:190px;
+  margin: 0 auto;
+}
+#skills p {
+  font-family: 'Lato', serif;
+  font-size:18px;
+  line-height:30px
+  color:#2b2b2b;
+  padding: 0 35px;
+}
+#html {
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+#css {
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+#pencil {
+  font-size: 100px;
+  padding-bottom: 10px;
+}
+/***** CONTACT *****/
+#contact {
+  color: #7f7f7f;
+}
+#contact .full-width {
+  padding: 110px 0;
+}
+#contact-img {
+  border:5px solid white;
+  height:400px;
+  width:600px;
+  border-radius: 50%;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+#email-me {
+  padding-left: 100px;
+}
+#envelope {
+  font-size:50px;
+  padding-left:115px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+}
+#contact h2 {
+  color: #7f7f7f;
+  font-family:'Petit Formal Script', cursive;
+  font-size:36px;
+}
+#email-header {
+  font-size: 32px;
+  font-weight: 400;
+  margin: -30px 0 5px 0;
+}
+#email-header span {
+  font-family: 'lato', cursive;
+  font-size: 50px;
+}
+#socialmedia-header {
+  font-size: 32px;
+  font-weight: 400;
+  margin: -30px 0 5px 0;
+}
+#twitter {
+  font-size: 60px;
+}
+#linkedin {
+  font-size: 60px;
+}
+#github {
+  font-size: 60px;
+}
+#instagram {
+  font-size: 60px;
+}
+#contact a {
+  text-decoration: none;
+  color: #7f7f7f;
+  font-weight:bold;
+  font-size:28px;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display: inline-block;
+  padding-left: 30px;
+}
+#contact ul img {
+  font-size: 32px;
+  padding-right: 48px;
+}
+/***** FOOTER *****/
+#copyright {
+  clear: both;
+  text-align: center;
+  margin-bottom: -300px;
+}
