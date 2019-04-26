@@ -33,9 +33,10 @@ header {
 }
 .Name {
   font-family: 'Petit Formal Script', cursive;
- font-size: 30px;
+  font-size: 30px;
   color: white;
 }
+
 nav {
   float: right;
 }
@@ -47,8 +48,8 @@ nav ul li a {
   text-decoration: none;
   font-size: 18px;
   color: white;
-  padding-left: 80px;
-  font-weight: bold
+  padding-left: 20px;
+  font-weight: bold;
 }
 #header-image {
   text-align: center;
@@ -72,6 +73,10 @@ nav ul li a {
   font-family: 'Petit Formal Script', cursive;
   font-size: 36px;
   text-align: center;
+}
+#about h4 {
+  color: #7f7f7f;
+  text-align: center;
   padding-bottom: 50px;
 }
 #about p {
@@ -79,10 +84,12 @@ nav ul li a {
   color: #7f7f7f;
   line-height: 42px;
   padding-right: 50px;
+  text-align: center;
 }
 #about h3 {
   font-size: 25px;
   color:#7f7f7f;
+  text-align: center;
 }
 /***** WORK STYLE *****/
 
@@ -121,6 +128,8 @@ nav ul li a {
   font-size: 100px;
   padding-bottom: 10px;
 }
+
+
 /***** CONTACT *****/
 #contact {
   color: #7f7f7f;
@@ -165,17 +174,23 @@ nav ul li a {
   font-weight: 400;
   margin: -30px 0 5px 0;
 }
+#social-links {
+  margin: 0 -80px 40px -30px;
+}
 #twitter {
-  font-size: 60px;
+  font-size: 50px;
 }
 #linkedin {
-  font-size: 60px;
+  font-size: 50px;
 }
 #github {
-  font-size: 60px;
+  font-size: 50px;
 }
 #instagram {
-  font-size: 60px;
+  font-size: 50px;
+}
+#behance {
+  font-size: 50px;
 }
 #contact a {
   text-decoration: none;
@@ -200,3 +215,8 @@ nav ul li a {
   text-align: center;
   margin-bottom: -300px;
 }
+/***** PROJECTS *****/
+
+
+
+/***** RESUME *****/
